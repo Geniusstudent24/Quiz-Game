@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QUIZ GAME</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="ply_btn">
+    <button class="play">Let's Start</button>
+    <div class="quiz">
+      <div class="box">
+        <div class="q1">
+          <h3></h3>
+          <br>
+            <div class="choice"><input type="radio" name="set" class="radio" onchange="radio()" id="option1" value="A"><label id="option" for="option1"></label> <br><br>
+            <input type="radio" name ="set" class="radio" onchange="radio()" id="option2" value="B"><label id="option" for="option2"></label> <br><br>
+            <input type="radio" name ="set" class="radio" onchange="radio()" id="option3" value="C"><label id="option" for="option3"></label> <br><br>
+            <input type="radio" name ="set" class="radio" onchange="radio()" id="option4" value="D"><label id="option" for="option4"></label> <br><br>
+        </div>
+        <button type="submit" id="netBtn">Next--></button>
+      </div>
+    </div>
+    <div class="res">
+      <p id="result"></p>
+    </div>
+  </div>
+
+<script src = "script.js"></script>
+</body>
+</html>
