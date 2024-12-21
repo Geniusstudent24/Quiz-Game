@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(background.jpg);
+  background-size: cover;
+}
+
+.ply_btn {
+  height: 100vh;
+  width: 80vh;
+  text-align: center;
+}
+.play {
+  background: #7BE0AD;
+  color: black;
+  font-weight: bolder;
+  height: 10rem;
+  width: 40rem;
+  border: 9px solid black;
+  border-radius: 20px;
+  font-size: 50px;
+  margin-top: 800px;
+}
+
+.quiz {
+  height: 700px;
+  width: 1100px;
+  background: #12a4d9;
+  margin: 10px 0px 0px 190px;
+  border: 5px solid black;
+  border-radius: 20px;
+  display: none;
+  margin-top: 900px;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.q1 {
+  height: 80%;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+.choice {
+  height: 70%;
+  width: 50%;
+  text-align: center;
+}
+
+label {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#netBtn {
+  height: 100px;
+  width: 230px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background: #883677;
+  font-size: 45px;
+  color: white;
+  display: none;
+ margin-left: 460px;
+}
+
+.radio {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.res {
+  height: 100px;
+  weight: 300px;
+  background: #e74875;
+  margin-top: 100px;
+  border: 5px solid black;
+  border-radius: 20px;
+  display: none;
+}
+
+#result {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 15px;
+}
